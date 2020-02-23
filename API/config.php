@@ -5,6 +5,11 @@ define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_NAME', 'math_fun');
+
+//define('DB_SERVER', 'localhost');
+//define('DB_USERNAME', 'id12688633_admin');
+//define('DB_PASSWORD', 'admin');
+//define('DB_NAME', 'id12688633_math4fun');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
