@@ -1,5 +1,5 @@
 <?php
-   include('./API/register.php');
+   include('../API/register.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,6 +31,11 @@
                 <label>Confirm Password</label>
                 <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
                 <span class="help-block"><?php echo $confirm_password_err; ?></span>
+            </div>
+            <div class="form-group <?php echo (!empty($role_err)) ? 'has-error' : ''; ?>">
+                <label>Role</label>
+                <input type="text" name="role" class="form-control" value="<?php echo $role; ?>">
+                <span class="help-block"><?php echo $role_err; ?></span>
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
