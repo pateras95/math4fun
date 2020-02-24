@@ -12,9 +12,9 @@ include('../API/login.php');
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
-            .wrapper{ 
+            .wrapper{
                 width: 450px;
-                padding: 20px; 
+                padding: 20px;
                 margin-top: 150px;
                 border:1px solid black;
                 border-radius: 10px;
@@ -24,8 +24,9 @@ include('../API/login.php');
                 font-family: Arial, sans-serif;
                 font-size: 25px;
                 margin:0 auto;
+                text-align:center;
             }
-            
+
             .container {
                 display: flex;
                 align-items: center;
@@ -36,12 +37,12 @@ include('../API/login.php');
     <body>
         <div class="container">
             <div class="wrapper">
-                <span class="title-text">Login</span>
-                <p>Please fill in your credentials to login.</p>
+                <div class="title-text">Login</div>
+                <div>Please fill in your credentials to login.</div>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                         <label>Username</label>
-                        <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+                        <input type="text" name="username" class="form-control" value="">
                         <span class="help-block"><?php echo $username_err; ?></span>
                     </div>
                     <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
