@@ -10,12 +10,12 @@ include('../API/login.php');
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
             .wrapper{ 
-                max-width: 500px;
-                min-width: 500px;
+                width: 450px;
                 padding: 20px; 
-                margin-top: 250px;
+                margin-top: 150px;
                 border:1px solid black;
                 border-radius: 10px;
             }
@@ -25,11 +25,17 @@ include('../API/login.php');
                 font-size: 25px;
                 margin:0 auto;
             }
+            
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         </style>
     </head>
     <body>
-        <div class="row justify-content-center">
-            <div class="col-lg-4 wrapper ">
+        <div class="container">
+            <div class="wrapper">
                 <span class="title-text">Login</span>
                 <p>Please fill in your credentials to login.</p>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
