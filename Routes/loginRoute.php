@@ -13,7 +13,8 @@ include('../API/login.php');
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style type="text/css">
             body{
-                background-image: url("../Assets/Images/background.png");
+                /* background-image: url("../Assets/Images/header_image.jpg"); */
+                background:#f9f8fd;
             }
             .vertical-align {
                 display: flex;
@@ -24,10 +25,9 @@ include('../API/login.php');
                 width: 450px;
                 padding: 20px;
                 margin-top: 150px;
-                border:3px solid gray;
                 border-radius: 10px;
-                background: #D8BFD8;
-                box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+                background: #3d3d3f;
+                box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
             }
             .error-text{
                 color:red;
@@ -40,7 +40,7 @@ include('../API/login.php');
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 25px;
                 text-align:center;
-                color: black;
+                color: #f9f8fd;
                 font-weight: bold;
             }
             .sub-text{
@@ -48,12 +48,12 @@ include('../API/login.php');
                 font-size: 12px;
                 text-align:center;
                 margin-bottom: 15px;
-                color:black;
+                color:#f9f8fd;
             }
             .label-text{
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 15px;
-                color:black;
+                color:#f9f8fd;
                 font-weight: bold;
             }
             .container {
@@ -70,7 +70,7 @@ include('../API/login.php');
                 border:none;
             }
             .sumbit-button:hover{;
-                background:#251c2e;
+                background:#7dce94;
                 color:white;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 15px;
@@ -83,7 +83,7 @@ include('../API/login.php');
     <body>
         <div class="container">
             <div class="wrapper">
-                <div class="text-center"><img src="../Assets/Images/logo.png" class="w-25"/></div>
+                <div class="text-center"><img src="../Assets/Images/logo_final.png" class="w-25"/></div>
                 <div class="title-text">Σύνδεση</div>
                 <div class="sub-text">Παρακαλώ συμπληρώστε τα στοιχεία σας για να συνδεθείτε.</div>
                 <hr>
@@ -114,7 +114,7 @@ include('../API/login.php');
                     </div>
                     <div class="row">
                         <div class="col-3"></div>
-                        <div class="col-9 text-center"><p>Δεν έχετε λογαριασμό; <a href="./registerRoute.php"><b>Εγγραφή εδώ</b></a>.</p></div>
+                        <div class="col-9 text-center"><p class="label-text">Δεν έχετε λογαριασμό; <a href="./registerRoute.php"><b>Εγγραφή εδώ</b></a>.</p></div>
                     </div>
                 </form>
             </div>
