@@ -83,8 +83,10 @@ include('../API/login.php');
     <body>
         <div class="container">
             <div class="wrapper">
+                <div class="text-center"><img src="../Assets/Images/logo.png" class="w-25"/></div>
                 <div class="title-text">Σύνδεση</div>
                 <div class="sub-text">Παρακαλώ συμπληρώστε τα στοιχεία σας για να συνδεθείτε.</div>
+                <hr>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                         <div class="row vertical-align">
