@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -42,8 +42,8 @@ html {
 a:link,
 a:visited {
     color: #3d3d3f;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -51,8 +51,8 @@ a:visited {
 a:hover,
 a:active {
     color: #7dce94;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -298,7 +298,7 @@ a:active {
 
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 25px;
     display: block;
     padding: 10px 0;
     -webkit-transition: all 0.3s ease;
@@ -340,9 +340,9 @@ a:active {
 
 #nav ul.sub li a {
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Amatic SC", sans-serif;
     letter-spacing: 1px;
-    font-size: 0.9rem;
+    font-size: 2rem;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -393,11 +393,11 @@ a:active {
             <a class="w3-bar-item w3-hide-medium w3-hide-large w3-right">
                 <div id="navDemo" class="menu"> <span></span> </div>
             </a>
-            <a href="#home" class="w3-bar-item nav-text">Αρχική</a>
-            <a href="#about" class="w3-bar-item  w3-hide-small nav-text"></i>Μαθήματα</a>
-            <a href="#portfolio" class="w3-bar-item  w3-hide-small nav-text"></i>Τεστάκια</a>
-            <a href="#contact" class="w3-bar-item w3-hide-small nav-text"></i>Παιχνίδια</a>
-            <a href="../API/logout.php" class="w3-bar-item  w3-hide-small w3-right w3-hover-red nav-text">Αποσύνδεση</a>
+            <a href="#home" class="w3-bar-item nav-text">Home</a>
+            <a href="#about" class="w3-bar-item  w3-hide-small nav-text"></i>Class A</a>
+            <a href="#portfolio" class="w3-bar-item  w3-hide-small nav-text"></i>Class B</a>
+            <a href="#contact" class="w3-bar-item w3-hide-small nav-text"></i>Class C</a>
+            <a href="../API/logout.php" class="w3-bar-item  w3-hide-small w3-right w3-hover-red nav-text">Log Out</a>
             </a>
         </div>
 
@@ -405,11 +405,11 @@ a:active {
 
         <nav id="nav">
             <ul class="main">
-                <li><a href="#home">Αρχική</a></li>
-                <li><a href="#about">Μαθήματα</a></li>
-                <li><a href="#portfolio">Τεστάκια</a></li>
-                <li><a href="#contact">Παιχνίδια</a></li>
-                <li><a href="../API/logout.php">Αποσύνδεση</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Class A</a></li>
+                <li><a href="#portfolio">Class B</a></li>
+                <li><a href="#contact">Class C</a></li>
+                <li><a href="../API/logout.php">Log Out</a></li>
             </ul>
         </nav>
         <div class="overlay"></div>
