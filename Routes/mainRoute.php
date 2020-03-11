@@ -39,20 +39,20 @@ html {
     width: 65%;
 }
 
-.w3-bar-item:hover{
+.w3-bar-item:hover {
     border-top: 3px solid black;
 }
 
 a:link,
 a:visited {
-    margin-right:10px;
-    margin-left:10px;
+    margin-right: 10px;
+    margin-left: 10px;
     color: black;
     font-family: "Amatic SC", sans-serif;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 a:hover {
@@ -391,6 +391,17 @@ a:active {
     align-items: center;
     margin-bottom: 0;
 }
+
+.card-deck {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: auto;
+    border-radius: 15px;
+    width: 60%;
+    padding: 10px;
+    align-content: center;
+    top: -10%
+}
 </style>
 
 <body>
@@ -400,7 +411,7 @@ a:active {
             <a class="w3-hide-medium w3-hide-large w3-right">
                 <div id="navDemo" class="menu"> <span></span> </div>
             </a>
-            <a href="#home" class="w3-bar-item disabled" >Home</a>
+            <a href="#home" class="w3-bar-item disabled">Home</a>
             <a href="#about" class="w3-hide-small w3-bar-item">Class A</a>
             <a href="#portfolio" class="w3-hide-small w3-bar-item">Class B</a>
             <a href="#contact" class="w3-hide-small w3-bar-item">Class C</a>
@@ -425,17 +436,36 @@ a:active {
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
             <span class="w3-center w3-padding-large w3-animate-opacity">
-                <!-- <div class="center-div">
-                    <img class="main-logo" src="../Assets/Images/logo_final.png" />
-                </div> -->
         </div>
     </div>
 
-    <!-- <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle main-logo">
-            <img src="../Assets/Images/logo.png" class="w-50" />
+    <div class="card-deck ">
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
         </div>
-    </div> -->
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/362x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/362x200" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
 
     dawdawdaw
     <br>
