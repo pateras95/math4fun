@@ -22,7 +22,7 @@ body,
 html {
     height: 100%;
     color: #777;
-    line-height: 2.5;
+    line-height: 1.2;
 }
 
 .bgimg-1 {
@@ -35,22 +35,31 @@ html {
 }
 
 .main-logo {
-    margin-top:15%;
+    margin-top: 15%;
     width: 65%;
+}
+
+.w3-bar-item:hover{
+    border-top: 3px solid black;
 }
 
 a:link,
 a:visited {
-    color: #3d3d3f;
+    margin-right:10px;
+    margin-left:10px;
+    color: black;
     font-family: "Amatic SC", sans-serif;
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    margin-top:5px;
 }
 
-a:hover,
+a:hover {
+    border-top: 3px solid black;
+}
+
 a:active {
-    color: #7dce94;
     font-family: "Amatic SC", sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -58,12 +67,12 @@ a:active {
 }
 
 .nav-on-scroll {
-    background: #f9f8fd;
+    background: #EDE2E2;
 }
 
 .bgimg-1 {
     background-image: url('../Assets/Images/back.png');
-   height:55%;
+    height: 55%;
 }
 
 .bgimg-1,
@@ -306,11 +315,11 @@ a:active {
 }
 
 #nav ul.main li a span {
-    color: #b7ac7f;
+    color: black;
 }
 
 #nav ul.main li a:hover {
-    color: #b7ac7f;
+    color: black;
 }
 
 #nav ul.sub {
@@ -388,14 +397,14 @@ a:active {
     <!-- Navbar (sit on top) -->
     <div class="w3-top vertical-alig">
         <div class="w3-bar" id="myNavbar">
-            <a class="w3-bar-item w3-hide-medium w3-hide-large w3-right">
+            <a class="w3-hide-medium w3-hide-large w3-right">
                 <div id="navDemo" class="menu"> <span></span> </div>
             </a>
-            <a href="#home" class="w3-bar-item nav-text">Home</a>
-            <a href="#about" class="w3-bar-item  w3-hide-small nav-text"></i>Class A</a>
-            <a href="#portfolio" class="w3-bar-item  w3-hide-small nav-text"></i>Class B</a>
-            <a href="#contact" class="w3-bar-item w3-hide-small nav-text"></i>Class C</a>
-            <a href="../API/logout.php" class="w3-bar-item  w3-hide-small w3-right w3-hover-red nav-text">Log Out</a>
+            <a href="#home" class="w3-bar-item disabled" >Home</a>
+            <a href="#about" class="w3-hide-small w3-bar-item">Class A</a>
+            <a href="#portfolio" class="w3-hide-small w3-bar-item">Class B</a>
+            <a href="#contact" class="w3-hide-small w3-bar-item">Class C</a>
+            <a href="../API/logout.php" class="w3-hide-small w3-bar-item w3-right">Log Out</a>
             </a>
         </div>
 
@@ -403,7 +412,6 @@ a:active {
 
         <nav id="nav">
             <ul class="main">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">Class A</a></li>
                 <li><a href="#portfolio">Class B</a></li>
                 <li><a href="#contact">Class C</a></li>
