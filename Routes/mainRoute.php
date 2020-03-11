@@ -30,8 +30,13 @@ html {
     min-height: 50%;
 }
 
-.main-logo {
+.center-div {
     text-align: center;
+}
+
+.main-logo {
+    margin-top:15%;
+    width: 65%;
 }
 
 a:link,
@@ -57,8 +62,9 @@ a:active {
 }
 
 .bgimg-1 {
-  background-image: url('https://cdn.shopify.com/s/files/1/0533/2089/files/img-url-filter.jpg?v=1515074624');
-  min-height: 100%;
+    background:whitesmoke;
+    /* background-image: url('https://cdn.shopify.com/s/files/1/0533/2089/files/img-url-filter.jpg?v=1515074624'); */
+   height: 60%;
 }
 
 .bgimg-1,
@@ -412,8 +418,10 @@ a:active {
 
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span
-                    class="w3-hide-small">WEBSITE</span> LOGO</span>
+            <span class="w3-center w3-padding-large w3-animate-opacity">
+                <div class="center-div">
+                    <img class="main-logo" src="../Assets/Images/logo_final.png" />
+                </div>
         </div>
     </div>
 
