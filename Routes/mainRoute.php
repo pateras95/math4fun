@@ -13,6 +13,9 @@ include('../API/loginCheck.php');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -361,8 +364,6 @@ include('../API/loginCheck.php');
         color: #b7ac7f;
     }
 
-    .menu:hover span {}
-
     /*  OVERLAY
 ========================================== */
     .overlay {
@@ -397,53 +398,53 @@ include('../API/loginCheck.php');
         position: relative;
         margin: auto;
         border-radius: 15px;
-        width: 60%;
+        width: 60.5%;
         padding: 10px;
         align-content: center;
         top: -10%
     }
 
     .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
     }
 
     .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+        transform: rotateY(180deg);
     }
 
-    .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
 
     .flip-card-front {
-    background-color: #bbb;
-    color: black;
+        background-color: #bbb;
+        color: black;
     }
 
     .flip-card-back {
-    background-color: #2980b9;
-    color: white;
-    transform: rotateY(180deg);
+        padding-top: 35%;
+        background-color: whitesmoke;
+        color: black;
+        transform: rotateY(180deg);
     }
-
-    
 </style>
 
 <body>
@@ -482,15 +483,38 @@ include('../API/loginCheck.php');
     </div>
 
     <div class="card-deck ">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+        <div class="row">
+            <div class="col flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="../Assets/Images/aclass.jpg" alt="Avatar" style="width:auto;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Α' Γυμνασίου</h1>
+                        <p>Άλγεβρα & Γεωμετρία</p>
+                    </div>
                 </div>
-                <div class="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
+            </div>
+            <div class="col flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="../Assets/Images/bclass.jpg" alt="Avatar" style="width:auto;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Β' Γυμνασίου</h1>
+                        <p>Άλγεβρα & Γεωμετρία</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="../Assets/Images/cclass.jpg" alt="Avatar" style="width:auto;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Γ' Γυμνασίου</h1>
+                        <p>Άλγεβρα & Γεωμετρία</p>
+                    </div>
                 </div>
             </div>
         </div>
