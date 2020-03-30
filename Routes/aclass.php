@@ -9,23 +9,26 @@ include('../API/loginCheck.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Αρχική</title>
+    <title>Α΄ Γυμνασίου</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="../Assets/css/style_sidebar.css">
+
+    <style>
+        .class-text {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-
-
-
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <img src="../Assets/Images/logo_final.png" style="width:200px"/>
+                <img src="../Assets/Images/logo_final.png" style="width:200px" />
             </div>
 
             <ul class="list-unstyled components">
@@ -54,7 +57,7 @@ include('../API/loginCheck.php');
         </nav>
 
         <!-- Page Content Holder -->
-        <div id="content">
+        <div id="content" style="width:100%">
 
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -69,33 +72,31 @@ include('../API/loginCheck.php');
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="mainRoute.php">Αρχική</a></li>
+                            <li><a href="#">Μαθηματικά Α΄ Γυμνασίου</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
 
-            <h2>Collapsible Sidebar Using Bootstrap 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+            <div class="class-text">
+                <h2>Άλγεβρα Α΄ Γυμνασίου</h2>
+                <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της άγλεβρας.</p>
+            </div>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1SJ5LGRiw3Q_BNyNTsn1w-5gkOdhopL2r#grid" style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
 
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+            <div class="class-text">
+                <h2>Γεωμετρία Α΄ Γυμνασίου</h2>
+                <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της γεωμετρίας.</p>
+            </div>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1aSDrEMznP5uq2ycaYje2IFbvb0ye4Y9J#grid" style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
 
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <!-- <iframe src="https://drive.google.com/embeddedfolderview?id=1SJ5LGRiw3Q_BNyNTsn1w-5gkOdhopL2r#grid" style="width:100%; height:600px; border:0;"></iframe> -->
-
-
+            <div class="class-text">
+                <h2>Σύνδεσμοι Α΄ Γυμνασίου</h2>
+                <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
+            </div>
             <div class="line"></div>
-
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </div>
 
