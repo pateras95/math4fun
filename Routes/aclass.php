@@ -79,21 +79,21 @@ include('../API/loginCheck.php');
             </nav>
 
             <div class="class-text">
-                <h2>Άλγεβρα Α΄ Γυμνασίου</h2>
+                <h2 style="color:#FDB122">Άλγεβρα Α΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της άγλεβρας.</p>
             </div>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1SJ5LGRiw3Q_BNyNTsn1w-5gkOdhopL2r#grid" style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
 
             <div class="class-text">
-                <h2>Γεωμετρία Α΄ Γυμνασίου</h2>
+                <h2 style="color:#FDB122">Γεωμετρία Α΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της γεωμετρίας.</p>
             </div>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1aSDrEMznP5uq2ycaYje2IFbvb0ye4Y9J#grid" style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
 
             <div class="class-text">
-                <h2>Σύνδεσμοι Α΄ Γυμνασίου</h2>
+                <h2 style="color:#FDB122">Σύνδεσμοι Α΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
             </div>
             <div class="line"></div>
