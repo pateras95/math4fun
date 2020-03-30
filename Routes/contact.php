@@ -1,6 +1,23 @@
 <?php
 include('../API/loginCheck.php');
 ?>
+
+<?php 
+if(isset($_POST['submit'])){
+    $to = "daphnekyprianou@outlook.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $subject = "Form submission";
+    $message = $first_name ." wrote the following:" . "\n\n" . $_POST['message'];
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +67,7 @@ include('../API/loginCheck.php');
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="mainRoute.php" aria-expanded="false">Αρχική</a>
+                    <a href="mainRoute.php">Αρχική</a>
                 </li>
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Τάξεις</a>
@@ -99,8 +116,63 @@ include('../API/loginCheck.php');
                 <h2 style="color:#FDB122">Επικοινωνία</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους με τους οποίους μπορείτε να επικοινωνήσετε μαζί μου ή να μου στείλετε κάποιο μήνυμα στο προσωπικό μου ηλεκτρονικό ταχυδρομίο.</p>
             </div>
-            <iframe src="https://drive.google.com/embeddedfolderview?id=1SJ5LGRiw3Q_BNyNTsn1w-5gkOdhopL2r#grid" style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
+            <section class="section">
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12 col-xl-12">
+                        <form id="contact-form" name="contact-form" action="" method="POST">
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <input type="text" id="name" name="first_name" class="form-control">
+                                        <label for="name" class="">Όνομα</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Email</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Τίτλος</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+                                        <label for="message">Μύνημα</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                        </form>
+
+                        <div class="center-on-small-only">
+                            <input type="submit" name="submit" value="Submit">
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                </div>
+
+            </section>
         </div>
     </div>
 

@@ -36,7 +36,7 @@ include('../API/loginCheck.php');
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="mainRoute.php" aria-expanded="false">Αρχική</a>
+                    <a href="mainRoute.php">Αρχική</a>
                 </li>
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Τάξεις</a>
