@@ -22,8 +22,8 @@ include('../API/loginCheck.php');
             text-align: center;
         }
 
-        .center-element{
-            margin:auto;
+        .center-element {
+            margin: auto;
         }
     </style>
 </head>
@@ -143,6 +143,54 @@ include('../API/loginCheck.php');
                         <tr>
                             <td scope="row">7. Η συνάρτηση y = αx + β</td>
                             <td><a href="https://www.geogebra.org/m/Jnt9VSmb#material/RR8HwAtR"><b>Σύνδεσμος εδώ</b></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+
+            <div class="class-text">
+                <h2 style="color:#FDB122">Σύνδεσμοι B΄ Γυμνασίου (Γεωμετρία)</h2>
+                <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
+            </div>
+            <div class="w-75 center-element">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Τίτλος</th>
+                            <th scope="col">Σύνδεσμος</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-primary">
+                            <td scope="row">Εγγεγραμμένες γωνίες</td>
+                            <td>
+                                <a href="https://www.geogebra.org/m/PxV3xZxV#material/WE2fNZ22"><b>Σύνδεσμος (α) εδώ</b></a>
+                                <br>
+                                <br>
+                                <a href="https://www.geogebra.org/m/Jnt9VSmb#material/jgMrJwQd"><b>Σύνδεσμος (β) εδώ</b></a>
+                            </td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td scope="row">Κανονικά Πολύγωνα</td>
+                            <td>
+                                <a href="https://www.geogebra.org/m/PxV3xZxV#material/fYkuWMpe"><b>Σύνδεσμος (α) εδώ</b></a>
+                                <br>
+                                <br>
+                                <a href="https://www.geogebra.org/m/kW7RqP7M"><b>Σύνδεσμος (β) εδώ</b></a>
+                                <br>
+                                <br>
+                                <a href="https://www.geogebra.org/m/qzt6xATP"><b>Σύνδεσμος (γ) εδώ. Σωστό ή Λάθος</b></a>
+                            </td>
+                        </tr>
+                        <tr class="table-success">
+                            <td scope="row">Mήκος κύκλου</td>
+                            <td>
+                                <a href="https://www.geogebra.org/m/PxV3xZxV#material/pMzjexkY"><b>Σύνδεσμος (α) εδώ</b></a>
+                                <br>
+                                <br>
+                                <a href="https://www.geogebra.org/m/Jnt9VSmb#material/uPpy88fv"><b>Σύνδεσμος (β) εδώ</b></a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
