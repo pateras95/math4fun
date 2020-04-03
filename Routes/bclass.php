@@ -12,8 +12,8 @@ include('../API/loginCheck.php');
     <title>B΄ Γυμνασίου</title>
 
     <!-- Bootstrap CSS CDN -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="../Assets/css/style_sidebar.css">
 
@@ -41,7 +41,7 @@ include('../API/loginCheck.php');
                     <a href="mainRoute.php">Αρχική</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Τάξεις</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" aria-controls="pageSubmenu">Τάξεις</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li><a href="aclass.php">Α΄ Γυμνασίου</a></li>
                         <li><a href="bclass.php">Β΄ Γυμνασίου</a></li>
@@ -96,53 +96,45 @@ include('../API/loginCheck.php');
             </div>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1gwxG3DrKfpTlTQHsC-rxd9nAAwLd-B1l#grid" style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
-
             <div class="class-text">
                 <h2 style="color:#FDB122">Σύνδεσμοι B΄ Γυμνασίου (Άλγεβρα)</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
             </div>
-            <div class="w-75 center-element">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">Τίτλος</th>
-                            <th scope="col">Σύνδεσμος</th>
-                        </tr>
-                    </thead>
+            <div class="w-75  center-element">
+                <table class="table">
                     <tbody>
-                        <tr class="table-primary">
-                            <td scope="row">Συντεταγμένες σημείου</td>
-                            <td><a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/VUnV62vT"><b>Σύνδεσμος εδώ</b></a></td>
-
+                        <tr>
+                            <th style="width: 40%" scope="row"> 1. Συντεταγμένες σημείου</th>
+                            <td style="width: 60%"><a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/VUnV62vT">Σύνδεσμος εδώ</a></td>
                         </tr>
-                        <tr class="table-secondary">
-                            <td scope="row">Η έννοια της συνάρτησης</td>
-                            <td><a href="https://www.geogebra.org/m/Jnt9VSmb#material/yDuaW2fM"><b>Σύνδεσμος εδώ</b></a></td>
+                        <tr>
+                            <th scope="row"> 2. Η έννοια της συνάρτησης</th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/yDuaW2fM">Σύνδεσμος εδώ</a></td>
                         </tr>
-                        <tr class="table-success">
-                            <td scope="row">Η έννοια της συνάρτησης / Αύξηση </td>
-                            <td><a href="https://www.geogebra.org/m/PxV3xZxV#material/s286mkTc"><b>Σύνδεσμος εδώ</b></a></td>
+                        <tr>
+                            <th scope="row"> 3. Η έννοια της συνάρτησης / Αύξηση </th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/PxV3xZxV#material/s286mkTc">Σύνδεσμος εδώ</a></td>
                         </tr>
-                        <tr class="table-danger">
-                            <td scope="row">Γραφική παράσταση συνάρτησης</td>
-                            <td><a href="https://www.geogebra.org/m/Jnt9VSmb#material/KP8G5QJH"><b>Σύνδεσμος εδώ</b></a></td>
+                        <tr>
+                            <th scope="row"> 4. Γραφική παράσταση συνάρτησης</th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/KP8G5QJH">Σύνδεσμος εδώ</a></td>
                         </tr>
-                        <tr class="table-warning">
-                            <td scope="row">Η συνάρτηση y = αx</td>
+                        <tr>
+                            <th scope="row"> 5. Η συνάρτηση y = αx</th>
                             <td>
-                                <a href="https://www.geogebra.org/m/Jnt9VSmb#material/pJDNzxJ9"><b>Σύνδεσμος (α) εδώ</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/pJDNzxJ9">Σύνδεσμος (α) εδώ</a>
                                 <br>
                                 <br>
-                                <a href="https://www.geogebra.org/m/PxV3xZxV#material/FrvYVVe8"><b>Σύνδεσμος (β) εδώ</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/PxV3xZxV#material/FrvYVVe8">Σύνδεσμος (β) εδώ</a>
                             </td>
                         </tr>
-                        <tr class="table-info">
-                            <td scope="row">Σύγκριση y=αx και y = ax + β</td>
-                            <td><a href="https://www.geogebra.org/m/PxV3xZxV#material/TxRgsVRN"><b>Σύνδεσμος εδώ</b></a></td>
+                        <tr>
+                            <th scope="row"> 6. Σύγκριση y=αx και y = ax + β</th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/PxV3xZxV#material/TxRgsVRN">Σύνδεσμος εδώ</a></td>
                         </tr>
                         <tr>
-                            <td scope="row">7. Η συνάρτηση y = αx + β</td>
-                            <td><a href="https://www.geogebra.org/m/Jnt9VSmb#material/RR8HwAtR"><b>Σύνδεσμος εδώ</b></a></td>
+                            <th scope="row"> 7. Η συνάρτηση y = αx + β</th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/RR8HwAtR">Σύνδεσμος εδώ</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -154,48 +146,41 @@ include('../API/loginCheck.php');
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
             </div>
             <div class="w-75 center-element">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th scope="col">Τίτλος</th>
-                            <th scope="col">Σύνδεσμος</th>
-                        </tr>
-                    </thead>
+                <table class="table">
                     <tbody>
-                        <tr class="table-primary">
-                            <td scope="row">Εγγεγραμμένες γωνίες</td>
-                            <td>
-                                <a href="https://www.geogebra.org/m/PxV3xZxV#material/WE2fNZ22"><b>Σύνδεσμος (α) εδώ</b></a>
+                        <tr>
+                            <th style="width: 40%" scope="row"> 1. Εγγεγραμμένες γωνίες</th>
+                            <td style="width: 60%">
+                                <a target="_blank" href="https://www.geogebra.org/m/PxV3xZxV#material/WE2fNZ22">Σύνδεσμος (α) εδώ</a>
                                 <br>
                                 <br>
-                                <a href="https://www.geogebra.org/m/Jnt9VSmb#material/jgMrJwQd"><b>Σύνδεσμος (β) εδώ</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/jgMrJwQd">Σύνδεσμος (β) εδώ</a>
                             </td>
                         </tr>
-                        <tr class="table-secondary">
-                            <td scope="row">Κανονικά Πολύγωνα</td>
+                        <tr>
+                            <th scope="row"> 2. Κανονικά Πολύγωνα</th>
                             <td>
-                                <a href="https://www.geogebra.org/m/PxV3xZxV#material/fYkuWMpe"><b>Σύνδεσμος (α) εδώ</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/PxV3xZxV#material/fYkuWMpe">Σύνδεσμος (α) εδώ</a>
                                 <br>
                                 <br>
-                                <a href="https://www.geogebra.org/m/kW7RqP7M"><b>Σύνδεσμος (β) εδώ</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/kW7RqP7M">Σύνδεσμος (β) εδώ</a>
                                 <br>
                                 <br>
-                                <a href="https://www.geogebra.org/m/qzt6xATP"><b>Σύνδεσμος (γ) εδώ. Σωστό ή Λάθος</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/qzt6xATP">Σύνδεσμος (γ) εδώ. Σωστό ή Λάθος</a>
                             </td>
                         </tr>
-                        <tr class="table-success">
-                            <td scope="row">Mήκος κύκλου</td>
+                        <tr>
+                            <th scope="row"> 3. Mήκος κύκλου</th>
                             <td>
-                                <a href="https://www.geogebra.org/m/PxV3xZxV#material/pMzjexkY"><b>Σύνδεσμος (α) εδώ</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/PxV3xZxV#material/pMzjexkY">Σύνδεσμος (α) εδώ</a>
                                 <br>
                                 <br>
-                                <a href="https://www.geogebra.org/m/Jnt9VSmb#material/uPpy88fv"><b>Σύνδεσμος (β) εδώ</b></a>
+                                <a target="_blank" href="https://www.geogebra.org/m/Jnt9VSmb#material/uPpy88fv">Σύνδεσμος (β) εδώ</a>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="line"></div>
         </div>
     </div>
 

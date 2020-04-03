@@ -12,7 +12,8 @@ include('../API/loginCheck.php');
     <title>Γ΄ Γυμνασίου</title>
 
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="../Assets/css/style_sidebar.css">
 
@@ -97,6 +98,32 @@ include('../API/loginCheck.php');
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
             </div>
             <div class="line"></div>
+
+            <div class="class-text">
+                <h2 style="color:#FDB122">Σύνδεσμοι Γ΄ Γυμνασίου (Γεωμετρία)</h2>
+                <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
+            </div>
+            <div class="w-75 center-element">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th style="width: 40%" scope="row"> 1. Τριγωνομετρικοί αριθμοί γωνιών από 0ο έως 180 ο μοίρες</th>
+                            <td style="width: 60%">
+                                <a target="_blank" href="https://www.geogebra.org/m/bUbmVyBH">Σύνδεσμος (α) εδώ</a>
+                                <br>
+                                <br>
+                                <a target="_blank" href="https://www.geogebra.org/m/S6xCG38T#material/j3cq2hF7">Σύνδεσμος (β) εδώ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 2.	Τριγωνομετρικοί αριθμοί παραπληρωματικών γωνιών</th>
+                            <td>
+                                <a target="_blank" href="https://www.geogebra.org/m/VYrgsWvM">Σύνδεσμος εδώ</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 

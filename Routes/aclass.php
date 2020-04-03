@@ -96,7 +96,6 @@ include('../API/loginCheck.php');
                 <h2 style="color:#FDB122">Σύνδεσμοι Α΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
             </div>
-            <div class="line"></div>
         </div>
     </div>
 
