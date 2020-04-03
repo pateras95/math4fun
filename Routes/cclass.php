@@ -58,7 +58,7 @@ include('../API/loginCheck.php');
         </nav>
 
         <!-- Page Content Holder -->
-        <div id="content" style="width:100%">
+        <div id="content" style="width=100%">
 
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -80,7 +80,7 @@ include('../API/loginCheck.php');
             </nav>
 
             <div class="class-text">
-                <h2 style="color:#FDB122">Άλγεβρα Γ΄ Γυμνασίου</h2>
+                <h2 style="color=#FDB122">Άλγεβρα Γ΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της άγλεβρας.</p>
             </div>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1kUkJ4QuSUKG8XmStKIqO-KQEyG-Mj_EV#grid" style="width:100%; height:300px; border:0"></iframe>
@@ -91,12 +91,6 @@ include('../API/loginCheck.php');
                 <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της γεωμετρίας.</p>
             </div>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1gvBO0g6xQmX8hswPxo5HuDcsoHTyE35R#grid" style="width:100%; height:300px; border:0"></iframe>
-            <div class="line"></div>
-
-            <div class="class-text">
-                <h2 style="color:#FDB122">Σύνδεσμοι Γ΄ Γυμνασίου</h2>
-                <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
-            </div>
             <div class="line"></div>
 
             <div class="class-text">

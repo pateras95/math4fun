@@ -57,7 +57,7 @@ include('../API/loginCheck.php');
         </nav>
 
         <!-- Page Content Holder -->
-        <div id="content" style="width:100%">
+        <div id="content" style="width=100%">
 
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -93,8 +93,78 @@ include('../API/loginCheck.php');
             <div class="line"></div>
 
             <div class="class-text">
-                <h2 style="color:#FDB122">Σύνδεσμοι Α΄ Γυμνασίου</h2>
+                <h2 style="color:#FDB122">Σύνδεσμοι Α΄ Γυμνασίου (Άλγεβρα)</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
+            </div>
+            <div class="w-75  center-element">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th style="width: 40%" scope="row"> 1.	Έννοια κλάσματος - Ισοδύναμα Κλάσματα</th>
+                            <td style="width: 60%"><a target="_blank" href="https://www.geogebra.org/m/xmhYtbwh">Σύνδεσμος εδώ</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 2.	ΜΚΔ και ΕΚΠ</th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/HnKaq4pe#material/fWA3GbDr">Σύνδεσμος εδώ</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 3.	Πρόσθεση ακέραιων</th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/uSafSkkk#material/d6BztDJF">Σύνδεσμος εδώ</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 4.	Πρόσθεση ρητών αριθμών</th>
+                            <td>
+                                <a target="_blank" href="https://www.geogebra.org/m/JnnWzBUy">Σύνδεσμος (α) εδώ</a>
+                                <br>
+                                <br>
+                                <a target="_blank" href="https://www.geogebra.org/m/uSafSkkk#material/bmSXswGk">Σύνδεσμος (β) εδώ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 5.	Παιχνίδι στην πρόσθεση ρητών αριθμών</th>
+                            <td>
+                                <a target="_blank" href="https://www.geogebra.org/m/uSafSkkk#material/v26g8rnm">Σύνδεσμος (α) εδώ</a>
+                                <br>
+                                <br>
+                                <a target="_blank" href="https://www.geogebra.org/m/uSafSkkk#material/r9xjcrtf">Σύνδεσμος (β) εδώ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 6.	Πολλαπλασιασμός ακεραίων</th>
+                            <td><a target="_blank" href="https://www.geogebra.org/m/uSafSkkk#material/JrnSrBua">Σύνδεσμος εδώ</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+
+            <div class="class-text">
+                <h2 style="color:#FDB122">Σύνδεσμοι Α΄ Γυμνασίου (Γεωμετρία)</h2>
+                <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
+            </div>
+            <div class="w-75 center-element">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th style="width: 40%" scope="row"> 1.	Συμμετρία ως προς σημείο</th>
+                            <td style="width: 60%">
+                                <a target="_blank" href="https://www.geogebra.org/m/uSafSkkk#material/MzYgutgb">Σύνδεσμος εδώ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.	Συμμετρία ως προς ευθεία</th>
+                            <td>
+                                <a target="_blank" href="https://www.geogebra.org/m/uSafSkkk#material/j4mGGpkK">Σύνδεσμος εδώ</a>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.	Συμμετρία ώς πρός άξονα</th>
+                            <td>
+                                <a target="_blank" href="https://www.geogebra.org/m/JPNGnucp#material/qsTUBX36">Σύνδεσμος εδώ</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>

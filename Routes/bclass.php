@@ -62,7 +62,7 @@ include('../API/loginCheck.php');
         </nav>
 
         <!-- Page Content Holder -->
-        <div id="content" style="width:100%">
+        <div id="content" style="width=100%">
 
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
