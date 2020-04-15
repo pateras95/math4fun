@@ -92,7 +92,35 @@ include('../API/loginCheck.php');
             </div>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1gvBO0g6xQmX8hswPxo5HuDcsoHTyE35R#grid" style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
-
+            <div class="class-text">
+                <h2 style="color:#FDB122">Σύνδεσμοι Γ΄ Γυμνασίου (Γεωμετρία)</h2>
+                <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
+            </div>
+            <div class="w-75 center-element">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th style="width: 40%" scope="row"> 1. Τριγωνομετρικοί αριθμοί γωνιών από 0ο έως 180 ο μοίρες</th>
+                            <td style="width: 60%">
+                                <a target="_blank" href="https://www.geogebra.org/m/bUbmVyBH">Σύνδεσμος (α) εδώ</a>
+                                <br>
+                                <br>
+                                <a target="_blank" href="https://www.geogebra.org/m/S6xCG38T#material/j3cq2hF7">Σύνδεσμος (β) εδώ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 2.	Τριγωνομετρικοί αριθμοί παραπληρωματικών γωνιών</th>
+                            <td>
+                                <a target="_blank" href="https://www.geogebra.org/m/VYrgsWvM">Σύνδεσμος εδώ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                        
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
             <div class="class-text">
                 <h2 style="color:#FDB122">Σύνδεσμοι Γ΄ Γυμνασίου (Γεωμετρία)</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
