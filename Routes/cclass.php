@@ -18,9 +18,9 @@ include('../API/loginCheck.php');
     <link rel="stylesheet" href="../Assets/css/style_sidebar.css">
 
     <style>
-        .class-text {
-            text-align: center;
-        }
+    .class-text {
+        text-align: center;
+    }
     </style>
 </head>
 
@@ -83,40 +83,105 @@ include('../API/loginCheck.php');
                 <h2 style="color=#FDB122">Άλγεβρα Γ΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της άγλεβρας.</p>
             </div>
-            <iframe src="https://drive.google.com/embeddedfolderview?id=1kUkJ4QuSUKG8XmStKIqO-KQEyG-Mj_EV#grid" style="width:100%; height:300px; border:0"></iframe>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1kUkJ4QuSUKG8XmStKIqO-KQEyG-Mj_EV#grid"
+                style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
 
             <div class="class-text">
                 <h2 style="color:#FDB122">Γεωμετρία Γ΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της γεωμετρίας.</p>
             </div>
-            <iframe src="https://drive.google.com/embeddedfolderview?id=1gvBO0g6xQmX8hswPxo5HuDcsoHTyE35R#grid" style="width:100%; height:300px; border:0"></iframe>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1gvBO0g6xQmX8hswPxo5HuDcsoHTyE35R#grid"
+                style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
             <div class="class-text">
-                <h2 style="color:#FDB122">Σύνδεσμοι Γ΄ Γυμνασίου (Γεωμετρία)</h2>
+                <h2 style="color:#FDB122">Σύνδεσμοι Γ΄ Γυμνασίου (Άλγεβρα)</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
             </div>
             <div class="w-75 center-element">
                 <table class="table">
                     <tbody>
                         <tr>
-                            <th style="width: 40%" scope="row"> 1. Τριγωνομετρικοί αριθμοί γωνιών από 0ο έως 180 ο μοίρες</th>
+                            <th style="width: 40%" scope="row"> 1. Οι πραγματικοί αριθμοί και οι πράξεις τους.
+                            </th>
                             <td style="width: 60%">
-                                <a target="_blank" href="https://www.geogebra.org/m/bUbmVyBH">Σύνδεσμος (α) εδώ</a>
-                                <br>
-                                <br>
-                                <a target="_blank" href="https://www.geogebra.org/m/S6xCG38T#material/j3cq2hF7">Σύνδεσμος (β) εδώ</a>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/pragmatikoi%20arithm_1_1A/index.html">Σύνδεσμος
+                                    εδώ</a>
+
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"> 2.	Τριγωνομετρικοί αριθμοί παραπληρωματικών γωνιών</th>
+                            <th scope="row"> 2. Δυνάμεις Πραγματικών Αριθμών</th>
                             <td>
-                                <a target="_blank" href="https://www.geogebra.org/m/VYrgsWvM">Σύνδεσμος εδώ</a>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/pragmatikoi%20arithm_1_1B/index.html">Σύνδεσμος
+                                    εδώ</a>
                             </td>
                         </tr>
                         <tr>
-                        
+                            <th style="width: 40%" scope="row"> 3. Τετραγωνική ρίζα πραγματικού αριθμού
+                            </th>
+                            <td style="width: 60%">
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/pragmatikoi%20arithm_1_1C/index.html">Σύνδεσμος
+                                    εδώ</a>
+
+                            </td>
+
                         </tr>
+                        <tr>
+                            <th scope="row"> 4. Μονώνυμα</th>
+                            <td>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/monwnyma_1_2A/index.html">Σύνδεσμος
+                                    εδώ</a>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 5. Πρόσθεση - Αφαίρεση Πολυωνύμων</th>
+                            <td>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/prosthesi_polwn_1_3/index.html">Σύνδεσμος
+                                    εδώ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 6. Πολλαπλασιασμός Πολυωνύμων</th>
+                            <td>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/polmos_polwnym_1_4/index.html">Σύνδεσμος
+                                    εδώ</a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 7. Αξιοσημείωτες Τευτότητες</th>
+                            <td>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/taytotites_1_5/index.html">Σύνδεσμος
+                                    εδώ</a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 8. Παραγοντοποίηση Αλγεβρικών Παραστάσεων</th>
+                            <td>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/paragontop_alg_parast_1_6/index.html">Σύνδεσμος
+                                    εδώ</a>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 9. Επανάληψη</th>
+                            <td>
+                                <a target="_blank"
+                                    href="http://www.e-maths.gr/online_test/G_gymnasiou/epanal_g_gymn/index.html">Σύνδεσμος
+                                    εδώ</a>
+
+                            </td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
@@ -129,16 +194,18 @@ include('../API/loginCheck.php');
                 <table class="table">
                     <tbody>
                         <tr>
-                            <th style="width: 40%" scope="row"> 1. Τριγωνομετρικοί αριθμοί γωνιών από 0ο έως 180 ο μοίρες</th>
+                            <th style="width: 40%" scope="row"> 1. Τριγωνομετρικοί αριθμοί γωνιών από 0 έως 180
+                                μοίρες</th>
                             <td style="width: 60%">
                                 <a target="_blank" href="https://www.geogebra.org/m/bUbmVyBH">Σύνδεσμος (α) εδώ</a>
                                 <br>
                                 <br>
-                                <a target="_blank" href="https://www.geogebra.org/m/S6xCG38T#material/j3cq2hF7">Σύνδεσμος (β) εδώ</a>
+                                <a target="_blank"
+                                    href="https://www.geogebra.org/m/S6xCG38T#material/j3cq2hF7">Σύνδεσμος (β) εδώ</a>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"> 2.	Τριγωνομετρικοί αριθμοί παραπληρωματικών γωνιών</th>
+                            <th scope="row"> 2. Τριγωνομετρικοί αριθμοί παραπληρωματικών γωνιών</th>
                             <td>
                                 <a target="_blank" href="https://www.geogebra.org/m/VYrgsWvM">Σύνδεσμος εδώ</a>
                             </td>
@@ -159,12 +226,12 @@ include('../API/loginCheck.php');
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
-        $(document).ready(function() {
-            $('#sidebarCollapse').on('click', function() {
-                $('#sidebar').toggleClass('active');
-                $(this).toggleClass('active');
-            });
+    $(document).ready(function() {
+        $('#sidebarCollapse').on('click', function() {
+            $('#sidebar').toggleClass('active');
+            $(this).toggleClass('active');
         });
+    });
     </script>
 </body>
 
