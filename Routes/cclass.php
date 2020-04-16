@@ -80,7 +80,7 @@ include('../API/loginCheck.php');
             </nav>
 
             <div class="class-text">
-                <h2 style="color=#FDB122">Άλγεβρα Γ΄ Γυμνασίου</h2>
+                <h2 style="color:#FDB122">Άλγεβρα Γ΄ Γυμνασίου</h2>
                 <p>Παρακάτω θα βρείτε τα τελευταία φυλάδια της άγλεβρας.</p>
             </div>
             <iframe src="https://drive.google.com/embeddedfolderview?id=1kUkJ4QuSUKG8XmStKIqO-KQEyG-Mj_EV#grid"

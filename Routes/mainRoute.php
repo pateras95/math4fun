@@ -25,9 +25,6 @@ include('../API/loginCheck.php');
 </head>
 
 <body>
-
-
-
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
