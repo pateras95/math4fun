@@ -194,9 +194,7 @@ include('../API/loginCheck.php');
                     </div>
                 </div>
             </nav>
-
-            <h1>Hi<?php echo htmlspecialchars($_SESSION["username"]); ?></h1>
-
+            
             <div class="response"></div>
             <div id='calendar'></div>
         </div>
