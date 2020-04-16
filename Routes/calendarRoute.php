@@ -23,6 +23,7 @@ include('../API/loginCheck.php');
     <script src="../fullcalendar/fullcalendar.min.js"></script>
 
     <script>
+        var user = "<?php echo htmlspecialchars($_SESSION["username"]); ?>"
         $(document).ready(function() {
             var calendar = $('#calendar').fullCalendar({
                 editable: true,
@@ -38,59 +39,65 @@ include('../API/loginCheck.php');
                 selectable: true,
                 selectHelper: true,
                 select: function(start, end, allDay) {
-                    var title = prompt('Event Title:');
+                    if (user === "admin") {
+                        var title = prompt('Event Title:');
 
-                    if (title) {
-                        var start = $.fullCalendar.formatDate(start, "Y-MM-DD HH:mm:ss");
-                        var end = $.fullCalendar.formatDate(end, "Y-MM-DD HH:mm:ss");
+                        if (title) {
+                            var start = $.fullCalendar.formatDate(start, "Y-MM-DD HH:mm:ss");
+                            var end = $.fullCalendar.formatDate(end, "Y-MM-DD HH:mm:ss");
 
-                        $.ajax({
-                            url: '../API/add-event.php',
-                            data: 'title=' + title + '&start=' + start + '&end=' + end,
-                            type: "POST",
-                            success: function(data) {
-                                displayMessage("Added Successfully");
-                            }
-                        });
-                        calendar.fullCalendar('renderEvent', {
-                                title: title,
-                                start: start,
-                                end: end,
-                                allDay: allDay
-                            },
-                            true
-                        );
+                            $.ajax({
+                                url: '../API/add-event.php',
+                                data: 'title=' + title + '&start=' + start + '&end=' + end,
+                                type: "POST",
+                                success: function(data) {
+                                    displayMessage("Added Successfully");
+                                }
+                            });
+                            calendar.fullCalendar('renderEvent', {
+                                    title: title,
+                                    start: start,
+                                    end: end,
+                                    allDay: allDay
+                                },
+                                true
+                            );
+                        }
+                        calendar.fullCalendar('unselect');
                     }
-                    calendar.fullCalendar('unselect');
                 },
 
                 editable: true,
                 eventDrop: function(event, delta) {
-                    var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
-                    var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");
-                    $.ajax({
-                        url: '../API/edit-event.php',
-                        data: 'title=' + event.title + '&start=' + start + '&end=' + end + '&id=' + event.id,
-                        type: "POST",
-                        success: function(response) {
-                            displayMessage("Updated Successfully");
-                        }
-                    });
-                },
-                eventClick: function(event) {
-                    var deleteMsg = confirm("Do you really want to delete?");
-                    if (deleteMsg) {
+                    if (user === "admin") {
+                        var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
+                        var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");
                         $.ajax({
+                            url: '../API/edit-event.php',
+                            data: 'title=' + event.title + '&start=' + start + '&end=' + end + '&id=' + event.id,
                             type: "POST",
-                            url: "../API/delete-event.php",
-                            data: "&id=" + event.id,
                             success: function(response) {
-                                if (parseInt(response) > 0) {
-                                    $('#calendar').fullCalendar('removeEvents', event.id);
-                                    displayMessage("Deleted Successfully");
-                                }
+                                displayMessage("Updated Successfully");
                             }
                         });
+                    }
+                },
+                eventClick: function(event) {
+                    if (user === "admin") {
+                        var deleteMsg = confirm("Do you really want to delete?");
+                        if (deleteMsg) {
+                            $.ajax({
+                                type: "POST",
+                                url: "../API/delete-event.php",
+                                data: "&id=" + event.id,
+                                success: function(response) {
+                                    if (parseInt(response) > 0) {
+                                        $('#calendar').fullCalendar('removeEvents', event.id);
+                                        displayMessage("Deleted Successfully");
+                                    }
+                                }
+                            });
+                        }
                     }
                 }
 
@@ -187,6 +194,8 @@ include('../API/loginCheck.php');
                     </div>
                 </div>
             </nav>
+
+            <h1>Hi<?php echo htmlspecialchars($_SESSION["username"]); ?></h1>
 
             <div class="response"></div>
             <div id='calendar'></div>
