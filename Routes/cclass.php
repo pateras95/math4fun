@@ -45,6 +45,9 @@ include('../API/loginCheck.php');
                     </ul>
                 </li>
                 <li>
+                    <a href="calendarRoute.php">Ημερολόγιο Ασκήσεων</a>
+                </li>
+                <li>
                     <a href="links.php">Χρήσιμα Link</a>
                 </li>
                 <li>
