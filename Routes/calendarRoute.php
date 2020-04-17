@@ -17,16 +17,17 @@ include('../API/loginCheck.php');
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="../Assets/css/style_sidebar.css">
 
-    <link rel="stylesheet" href="../fullcalendar/fullcalendar.min.css" />
-    <script src="../fullcalendar/lib/jquery.min.js"></script>
-    <script src="../fullcalendar/lib/moment.min.js"></script>
-    <script src="../fullcalendar/fullcalendar.min.js"></script>
+    <link rel='stylesheet' href='../fullcalendar/fullcalendar.css' />
+    <script src='../fullcalendar/lib/jquery.min.js'></script>
+    <script src='../fullcalendar/lib/moment.min.js'></script>
+    <script src='../fullcalendar/fullcalendar.js'></script>
 
     <script>
         var user = "<?php echo htmlspecialchars($_SESSION["username"]); ?>"
         $(document).ready(function() {
             var calendar = $('#calendar').fullCalendar({
                 editable: true,
+                eventLimit: true,
                 events: "../API/fetch-event.php",
                 displayEventTime: false,
                 eventRender: function(event, element, view) {
@@ -99,8 +100,15 @@ include('../API/loginCheck.php');
                             });
                         }
                     }
-                }
-
+                },
+                // eventMouseover: function(event) {
+                //     var tooltip = new Tooltip(event.el, {
+                //         title: event.title,
+                //         placement: 'top',
+                //         trigger: 'hover',
+                //         container: 'body'
+                //     });
+                // }
             });
         });
 
@@ -118,7 +126,7 @@ include('../API/loginCheck.php');
         }
 
         #calendar {
-            width: 50%;
+            width: 75%;
             min-width: 500px;
             /* min-height: 500px; */
             margin: 0 auto;
@@ -134,6 +142,8 @@ include('../API/loginCheck.php');
             border: #c3e6c3 1px solid;
             display: inline-block;
         }
+
+        
     </style>
 </head>
 
@@ -199,8 +209,6 @@ include('../API/loginCheck.php');
             <div id='calendar'></div>
         </div>
     </div>
-
-
 
 
 
