@@ -126,7 +126,7 @@ include('../API/loginCheck.php');
         }
 
         #calendar {
-            width: 75%;
+            width: 100%;
             min-width: 500px;
             /* min-height: 500px; */
             margin: 0 auto;
