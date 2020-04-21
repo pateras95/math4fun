@@ -20,6 +20,9 @@ include('../API/loginCheck.php');
         .header-text{
             font-size:22px;
         }
+        .class-text {
+            text-align: center;
+        }
 
     </style>
 </head>
@@ -76,17 +79,43 @@ include('../API/loginCheck.php');
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">ΑΧρήσιμα Link</a></li>
+                            <li><a href="#">Χρήσιμα Link</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
+            <div class="class-text">
+                <h2 style="color:#FDB122">Χρήσιμα Link</h2>
+                <p>Παρακάτω θα βρείτε τους χρήσιμους συνδέσμους για online εξάσκηση.</p>
+            </div>
+            <div class="w-75  center-element">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th style="width: 40%" scope="row"> 1.	Μαθηματικά Α' Γυμνασίου Διαδραστικό Βιβλίο</th>
+                            <td style="width: 60%"><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-A200/426/2865,10900/">Σύνδεσμος εδώ</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 2.	Μαθηματικά Β' Γυμνασίου Διαδραστικό Βιβλίο</th>
+                            <td><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-B105/386/2552,9945/">Σύνδεσμος εδώ</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 3.	Μαθηματικά Γ' Γυμνασίου Διαδραστικό Βιβλίο</th>
+                            <td><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-C104/470/3109,12498/">Σύνδεσμος εδώ</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> 4.	Ελληνική Μαθηματική Εταιρεία</th>
+                            <td>
+                                <a target="_blank" href="http://www.hms.gr/">Σύνδεσμος εδώ</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
         </div>
     </div>
-
-
-
-
 
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>

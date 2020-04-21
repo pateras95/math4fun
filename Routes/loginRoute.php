@@ -74,8 +74,6 @@ include('../API/login.php');
                         </div>
                     </fieldset>
                 </form>
-
-
         </div>  
         </div>
     </div>
