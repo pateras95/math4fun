@@ -102,6 +102,15 @@ include('../API/loginCheck.php');
             <iframe src="https://drive.google.com/embeddedfolderview?id=1gwxG3DrKfpTlTQHsC-rxd9nAAwLd-B1l#grid"
                 style="width:100%; height:300px; border:0"></iframe>
             <div class="line"></div>
+
+            <div class="class-text">
+                <h2 style="color:#FDB122">Επαναληπτικά B΄ Γυμνασίου</h2>
+                <p>Παρακάτω θα βρείτε τα τελευταία επαναληπτικά φυλάδια .</p>
+            </div>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1sbGhRRS6PN-XtfzXvAsN1_XGhFKT7feY#grid"
+                style="width:100%; height:300px; border:0"></iframe>
+            <div class="line"></div>
+
             <div class="class-text">
                 <h2 style="color:#FDB122">Σύνδεσμοι B΄ Γυμνασίου (Άλγεβρα)</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>

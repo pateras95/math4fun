@@ -96,6 +96,13 @@ include('../API/loginCheck.php');
             <div class="line"></div>
 
             <div class="class-text">
+                <h2 style="color:#FDB122">Επαναληπτικά Α΄ Γυμνασίου</h2>
+                <p>Παρακάτω θα βρείτε τα τελευταία επαναληπτικά φυλάδια.</p>
+            </div>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1Uk98qg_5TgFnHETgaOABbt9WQgS3O_e8#grid" style="width:100%; height:300px; border:0"></iframe>
+            <div class="line"></div>
+
+            <div class="class-text">
                 <h2 style="color:#FDB122">Σύνδεσμοι Α΄ Γυμνασίου (Άλγεβρα)</h2>
                 <p>Παρακάτω θα βρείτε τους συνδέσμους για online εξάσκηση.</p>
             </div>
