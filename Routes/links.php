@@ -17,13 +17,13 @@ include('../API/loginCheck.php');
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="../Assets/css/style_sidebar.css">
     <style>
-        .header-text{
-            font-size:22px;
+        .header-text {
+            font-size: 22px;
         }
+
         .class-text {
             text-align: center;
         }
-
     </style>
 </head>
 
@@ -93,19 +93,19 @@ include('../API/loginCheck.php');
                 <table class="table">
                     <tbody>
                         <tr>
-                            <th style="width: 40%" scope="row"> 1.	Μαθηματικά Α' Γυμνασίου Διαδραστικό Βιβλίο</th>
+                            <th style="width: 40%" scope="row"> 1. Μαθηματικά Α' Γυμνασίου Διαδραστικό Βιβλίο</th>
                             <td style="width: 60%"><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-A200/426/2865,10900/">Σύνδεσμος εδώ</a></td>
                         </tr>
                         <tr>
-                            <th scope="row"> 2.	Μαθηματικά Β' Γυμνασίου Διαδραστικό Βιβλίο</th>
+                            <th scope="row"> 2. Μαθηματικά Β' Γυμνασίου Διαδραστικό Βιβλίο</th>
                             <td><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-B105/386/2552,9945/">Σύνδεσμος εδώ</a></td>
                         </tr>
                         <tr>
-                            <th scope="row"> 3.	Μαθηματικά Γ' Γυμνασίου Διαδραστικό Βιβλίο</th>
+                            <th scope="row"> 3. Μαθηματικά Γ' Γυμνασίου Διαδραστικό Βιβλίο</th>
                             <td><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-C104/470/3109,12498/">Σύνδεσμος εδώ</a></td>
                         </tr>
                         <tr>
-                            <th scope="row"> 4.	Ελληνική Μαθηματική Εταιρεία</th>
+                            <th scope="row"> 4. Ελληνική Μαθηματική Εταιρεία</th>
                             <td>
                                 <a target="_blank" href="http://www.hms.gr/">Σύνδεσμος εδώ</a>
                             </td>
@@ -114,6 +114,9 @@ include('../API/loginCheck.php');
                 </table>
             </div>
             <div class="line"></div>
+
+            <div id="meet"></div>
+            <script src='https://meet.jit.si/external_api.js'></script>
         </div>
     </div>
 
@@ -128,6 +131,17 @@ include('../API/loginCheck.php');
                 $('#sidebar').toggleClass('active');
                 $(this).toggleClass('active');
             });
+        });
+
+        $(document).ready(function() {
+            const domain = 'meet.jit.si';
+            const options = {
+                roomName: 'math4fun',
+                width: 700,
+                height: 700,
+                parentNode: document.querySelector('#meet')
+            };
+            const api = new JitsiMeetExternalAPI(domain, options);
         });
     </script>
 </body>

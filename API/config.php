@@ -2,20 +2,15 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'math4fun');
-
 // define('DB_SERVER', 'localhost');
 // define('DB_USERNAME', 'root');
 // define('DB_PASSWORD', '');
-// define('DB_NAME', 'math_fun');
+// define('DB_NAME', 'math4fun');
 
-//define('DB_SERVER', 'localhost');
-//define('DB_USERNAME', 'id12688633_admin');
-//define('DB_PASSWORD', 'admin');
-//define('DB_NAME', 'id12688633_math4fun');
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'math');
+define('DB_PASSWORD', 'Megalink87!');
+define('DB_NAME', 'math');
 
 // define('DB_SERVER', 'sql109.epizy.com');
 // define('DB_USERNAME', 'epiz_25247373');
