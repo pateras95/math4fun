@@ -5,7 +5,7 @@ server with default setting (user 'root' with no password) */
 // define('DB_SERVER', 'localhost');
 // define('DB_USERNAME', 'root');
 // define('DB_PASSWORD', '');
-// define('DB_NAME', 'math4fun');
+// define('DB_NAME', 'math_fun');
 
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'math');
