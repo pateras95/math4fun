@@ -174,6 +174,9 @@ include('../API/loginCheck.php');
                     <a href="links.php">Χρήσιμα Link</a>
                 </li>
                 <li>
+                    <a href="onlineMeetClass.php">Σύνδεση στην Τάξη Μαθήματος</a>
+                </li>
+                <li>
                     <a href="contact.php">Επικοινωνία</a>
                 </li>
             </ul>

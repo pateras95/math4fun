@@ -9,7 +9,7 @@ include('../API/loginCheck.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Χρήσιμα Link</title>
+    <title>Online Τάξη Μαθήματος</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -90,41 +90,19 @@ include('../API/loginCheck.php');
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Χρήσιμα Link</a></li>
+                            <li><a href="#">Ηλεκτρονική Τάξη</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
 
             <div class="class-text">
-                <h2 style="color:#FDB122">Χρήσιμα Link</h2>
-                <p>Παρακάτω θα βρείτε τους χρήσιμους συνδέσμους για online εξάσκηση.</p>
+                <h2 style="color:#FDB122">Ηλεκτρονική Τάξη</h2>
+                <p>Παρακάτω κάνουμε το μάθημα μας, online με αυτοματοποιημένη κληση!</p>
             </div>
-            <div class="w-75  center-element">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <th style="width: 40%" scope="row"> 1. Μαθηματικά Α' Γυμνασίου Διαδραστικό Βιβλίο</th>
-                            <td style="width: 60%"><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-A200/426/2865,10900/">Σύνδεσμος εδώ</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row"> 2. Μαθηματικά Β' Γυμνασίου Διαδραστικό Βιβλίο</th>
-                            <td><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-B105/386/2552,9945/">Σύνδεσμος εδώ</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row"> 3. Μαθηματικά Γ' Γυμνασίου Διαδραστικό Βιβλίο</th>
-                            <td><a target="_blank" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGYM-C104/470/3109,12498/">Σύνδεσμος εδώ</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row"> 4. Ελληνική Μαθηματική Εταιρεία</th>
-                            <td>
-                                <a target="_blank" href="http://www.hms.gr/">Σύνδεσμος εδώ</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="line"></div>
+
+            <div id="meet" class="meet-room"></div>
+            <script src='https://meet.jit.si/external_api.js'></script>
         </div>
     </div>
 
@@ -139,6 +117,17 @@ include('../API/loginCheck.php');
                 $('#sidebar').toggleClass('active');
                 $(this).toggleClass('active');
             });
+        });
+
+        $(document).ready(function() {
+            const domain = 'meet.jit.si';
+            const options = {
+                roomName: 'Online Τάξη',
+                width: 800,
+                height: 500,
+                parentNode: document.querySelector('#meet')
+            };
+            const api = new JitsiMeetExternalAPI(domain, options);
         });
     </script>
 </body>
