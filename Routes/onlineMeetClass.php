@@ -27,10 +27,14 @@ include('../API/loginCheck.php');
 
         .meet-room{
             height: 500px;
-            width: 800px;
+            width: 100%;
             margin: 0 auto;
             right: 0;
             top: 0;
+        }
+
+        .width-class{
+            width: 100%
         }
     </style>
 </head>
@@ -123,8 +127,6 @@ include('../API/loginCheck.php');
             const domain = 'meet.jit.si';
             const options = {
                 roomName: 'Online Τάξη',
-                width: 800,
-                height: 500,
                 parentNode: document.querySelector('#meet')
             };
             const api = new JitsiMeetExternalAPI(domain, options);
