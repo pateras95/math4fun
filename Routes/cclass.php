@@ -220,7 +220,7 @@ include('../API/loginCheck.php');
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"> 2. Τριγωνομετρικοί αριθμοί παραπληρωματικών γωνιών</th>
+                            <th scope="row"> 2. Τριγωνομετρικοί αριθμοί παραπληρωματικών γωνιών :) </th>
                             <td>
                                 <a target="_blank" href="https://www.geogebra.org/m/VYrgsWvM">Σύνδεσμος εδώ</a>
                             </td>
