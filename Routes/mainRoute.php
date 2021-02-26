@@ -86,7 +86,7 @@ include('../API/loginCheck.php');
             </nav>
 
             <h2 style="color:#FDB122">Μαθήματα Μαθηματικών</h2>
-            <span class="header-text">Καλώς ήρθατε στην ηλεκτρονική τάξη μας! Εδώ θα βρίσκουμε όλο το υλικό σχετικά με τα μαθήματα μας καθώς και χρήσιμες πληροφορίες γύρω από τα μαθηματικά.</span>
+            <span class="header-text">Καλώς ήρθατε στην ηλεκτρονική τάξη μας, Εδώ θα βρίσκουμε όλο το υλικό σχετικά με τα μαθήματα μας καθώς και χρήσιμες πληροφορίες γύρω από τα μαθηματικά.</span>
 
             <div style="text-align:center">
                 <iframe src="https://giphy.com/embed/l2Ject9fem5QZOyTC" width="350px" height="350px" style="position:center" frameBorder="0" class="giphy-embed"></iframe>
